@@ -81,6 +81,6 @@ python token_logger.py
 ## How to a python file to a exe 
 
 use the following command in powershell in the folder you have the logger in ! 
-
+```bash
 pyinstaller --onefile --noconsole --Name"Yourcustomname" token_logger.py
-
+```
