@@ -34,3 +34,53 @@ All testing should be performed only on systems, accounts, and environments wher
 This project is intended strictly for educational, research, and authorized security-testing purposes. Do not use it to access, collect, or compromise credentials belonging to other users.
 
 (you can still use it to log a discord token dont worry!)
+
+# How to Install
+
+## Requirements
+
+* Python 3.10 or newer
+* Git
+* Windows, Linux, or macOS
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/xiyzc/Discord-token-logger-in-python.git
+cd Discord-token-logger-in-python
+```
+
+2. Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+3. Activate the virtual environment.
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS:**
+
+```bash
+source venv/bin/activate
+```
+
+5. Start the application:
+
+```bash
+python token_logger.py
+```
+
+## How to a python file to a exe 
+
+use the following command in powershell in the folder you have the logger in ! 
+
+pyinstaller --onefile --noconsole --Name"Yourcustomname" token_logger.py
+
