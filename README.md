@@ -89,3 +89,5 @@ pyinstaller --onefile --noconsole --Name"Yourcustomname" token_logger.py
 ```bash
 pip install pycryptodome pywin32 requests
 ```
+
+Please set a Star to this Repository to Support me and get future updates and more stuff!
